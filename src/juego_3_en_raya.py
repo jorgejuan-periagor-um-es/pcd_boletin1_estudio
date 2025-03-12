@@ -116,6 +116,8 @@ def mostrar_tablero(tablero):
     
 # Y a continuación implementamos el bucle que permite a cada uno de los dos jugadores ir añadiendo movimientos:
 
+import os
+
 #Pedimos el tamaño del tablero en que se va a realizar el juego
 n=int(input('Introduce el tamaño del tablero cuadrado:'))
 
